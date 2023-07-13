@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <footer>
-      Footer
+      Website by: PP3Ti
     </footer>
   )
 }

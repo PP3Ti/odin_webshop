@@ -1,15 +1,33 @@
 import Footer from "./Components/Footer"
 import Header from "./Components/Header"
-import Main from "./Components/Main"
+import Landing from "./Components/Landing"
+import Cart from './Components/Cart'
+import Shop from './Components/Shop'
+import bg from './Assets/bg3.png'
+import { Route, Routes } from "react-router-dom"
+import ShoeData from "./Assets/ShoeData"
+import { useEffect, useState } from "react"
 
-function App() {
+export default function App() {
+
+  const [shoes, setShoes] = useState(ShoeData)
+  const [cartItems, setCartItems] = useState([])
+
+  useEffect(() => {
+    setCartItems((cartItems) => [...cartItems, ShoeData[0], ShoeData[2]])
+  }, [])
+
+
   return (
-    <div className="app">
+    <div className="app" style={{ backgroundImage:`url(${bg})` }}>
       <Header />
-      <Main />
+      <Routes>
+        <Route path="/" element={<Landing />} />
+        <Route path="/cart" element={<Cart cartItems={cartItems} setCartItems={setCartItems} />} />
+        <Route path="/shop" element={<Shop shoes={shoes} cartItems={cartItems} setCartItems={setCartItems} />} />
+      </Routes>
       <Footer />
     </div>
   )
 }
 
-export default App
