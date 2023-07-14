@@ -20,8 +20,6 @@ const ShoeData = [
     price:110,
     picture1: cobra1,
     picture2: cobra2,
-    size: undefined,
-    quantity: 0
   },
   {
     name:"Solution Comp",
@@ -30,8 +28,6 @@ const ShoeData = [
     price:182,
     picture1: solution_comp1,
     picture2: solution_comp2,
-    size: undefined,
-    quantity: 0
   },
   {
     name:"Python",
@@ -40,8 +36,6 @@ const ShoeData = [
     price:149,
     picture1: python1,
     picture2: python2,
-    size: undefined,
-    quantity: 0
   },
   {
     name:"Skwama",
@@ -50,8 +44,6 @@ const ShoeData = [
     price:170,
     picture1: skwama1,
     picture2: skwama2,
-    size: undefined,
-    quantity: 0
   },
   {
     name:"Drago",
@@ -60,8 +52,6 @@ const ShoeData = [
     price:200,
     picture1: drago1,
     picture2: drago2,
-    size: undefined,
-    quantity: 0
   },
   {
     name:"Furia Air",
@@ -70,8 +60,6 @@ const ShoeData = [
     price:200,
     picture1: furia_air1,
     picture2: furia_air2,
-    size: undefined,
-    quantity: 0
   }
 ]
 

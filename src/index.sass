@@ -133,7 +133,7 @@ footer
       
   .shoe:hover
     transform: scale(1.1)
-    transition: transform 0.3s
+    transition: transform 0.2s
   
 .cart-wrapper
   display: flex
@@ -143,9 +143,11 @@ footer
   .cart
     display: flex
     flex-direction: column
+    justify-content: space-between
     gap: 15px
     height: min-content
-    width: clamp(40%, 500px, 500px)
+    min-height: 90%
+    width: 500px
     background-color: rgba(#121212, 0.9)
     padding: 30px
 
@@ -175,11 +177,111 @@ footer
     font-size: 1rem
     margin-inline-start: 20px
 
-  .cart-sum
-    align-self: flex-end
-    margin-inline-end: 15px
+  .cart-item-right
+    display: flex
+
+  .cart-bottom
+    display: flex
+    justify-content: flex-end
+    gap: 10px
 
   .checkout-button
+    width: 25%
+    padding: 8px 16px
+    background-color: rgba(#121212, 0.9)
+    border: 1px solid #E9F8F9
+    font-size: 1rem
+
+  .checkout-button:hover
+    background-color: rgba(#E9F8F9, 0.2)
+    border: 1px solid #56c972
+
+#showcase
+  position: fixed
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -70%)
+
+#showcase::backdrop
+  background-color: rgba(#121212, 0.9)
+
+.showcase-wrapper
+  display: grid
+  grid-template-rows: 120px 1fr
+  place-items: center
+  height: min-content
+  width: 800px
+  background-color: rgba(#121212, 0.9)
+  padding-inline: 30px
+
+  .showcase-name
+    font-weight: 400
+    font-size: 3.5rem
+  
+  .showcase-body
+    display: flex
+    gap: 20px
+    padding-block-end: 30px
+
+    .showcase-body-right
+      display: flex
+      flex-direction: column
+
+    .showcase-image
+      max-width: 50%
+      align-self: flex-start
+
+    .showcase-description-title, .size-selector-title
+      width: 100%
+      box-shadow: 0 1px 0 0 #E9F8F9
+      font-weight: 400
+      font-size: 1.3rem
+
+    .showcase-description-text
+      margin-block-start: 10px
+      margin-block-end: 20px
+
+  .sizes
+    margin-block: 10px
+    display: flex
+    flex-wrap: wrap
+    gap: 5px
+
+    .size
+      display: grid
+      place-content: center
+      height: 35px
+      width: 35px
+      font-size: 1.1rem
+      border: 1px solid #E9F8F9
+
+    .size:hover
+      background-color: rgba(#E9F8F9, 0.2)
+
+    .active-size
+      border: 1px solid #56c972
+
+  .showcase-buttons
+    margin-top: auto
+    display: flex
+    justify-content: space-between 
+
+    button
+      width: 30%
+      padding: 8px 16px
+      background-color: rgba(#121212, 0.9)
+      border: 1px solid #E9F8F9
+      font-size: 1rem
+
+    button:hover
+      background-color: rgba(#E9F8F9, 0.2)
+    
+    .back-to-shopping-button:hover
+      border: 1px solid #cc5858
+
+    .add-to-cart-button:hover
+      border: 1px solid #56c972
+
     
 
 
