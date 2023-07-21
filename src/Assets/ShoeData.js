@@ -10,6 +10,15 @@ import skwama1 from '../Assets/shoes/skwama_1.jpg'
 import skwama2 from '../Assets/shoes/skwama_2.jpg'
 import solution_comp1 from '../Assets/shoes/solution comp_1.jpg'
 import solution_comp2 from '../Assets/shoes/solution comp_2.jpg'
+import mantra1 from '../Assets/shoes/mantra1.jpg'
+import mantra2 from '../Assets/shoes/mantra2.jpg'
+import tarantula1 from '../Assets/shoes/tarantula1.jpg'
+import tarantulaW1 from '../Assets/shoes/tarantulaW1.jpg'
+import tarantulaW2 from '../Assets/shoes/tarantulaW2.jpg'
+import futuraW1 from '../Assets/shoes/futuraW1.jpg'
+import futuraW2 from '../Assets/shoes/futuraW2.jpg'
+import theory1 from '../Assets/shoes/theory1.jpg'
+import theory2 from '../Assets/shoes/theory2.jpg'
 
 
 const ShoeData = [
@@ -60,7 +69,47 @@ const ShoeData = [
     price:200,
     picture1: furia_air1,
     picture2: furia_air2,
-  }
+  },
+  {
+    name:"Mantra",
+    manufacturer:"La Sportiva",
+    description:"Ultra-light climbing shoe designed for indoor surfaces and dedicated to medium / high-level climbers, looking for maximum grip and versatility of use on any type of hold, both lead and boulder.",
+    price:160,
+    picture1:mantra1,
+    picture2:mantra2
+  },
+  {
+    name:"Tarantula",
+    manufacturer:"La Sportiva",
+    description:"Multifunctional climbing shoe ideal for beginners and instructions walls. Quick lacing hook&loop closure, standard fit.",
+    price:70,
+    picture1:tarantula1,
+    picture2:tarantula1
+  },
+  {
+    name:"Tarantula Woman",
+    manufacturer:"La Sportiva",
+    description:"Aesthetic update of Tarantula, a multipurpose climbing shoe ideal for climbers who are approaching the world of climbing and for use in gyms. Fast and functional strap lacing, neutral shape suitable for all types of foot.",
+    price:105,
+    picture1:tarantulaW1,
+    picture2:tarantulaW2
+  },
+  {
+    name:"Futura Woman",
+    manufacturer:"La Sportiva",
+    description:"The Futura model belongs to the innovative “No-Edge” generation. The No-edge concept eliminates the traditional “edges” of the sole.",
+    price:177,
+    picture1:futuraW1,
+    picture2:futuraW2
+  },
+  {
+    name:"Theory",
+    manufacturer:"La Sportiva",
+    description:"Indoor performance shoe designed for perfectadaptation to the new shapes and volumes ofindoor climbing holds. Theory represents theevolution of the species: the extreme sensitivitycombined with high dynamism allows forunprecedented spreadability, adherenceand reactivity on holds.",
+    price:171,
+    picture1:theory1,
+    picture2:theory2
+  },
 ]
 
 export default ShoeData

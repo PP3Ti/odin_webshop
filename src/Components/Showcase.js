@@ -30,7 +30,7 @@ export default function Showcase({ currentShoe, setCurrentShoe, cartItems, setCa
       const sizeSquares = document.querySelectorAll('.size')
       sizeSquares.forEach(square => {
       square.classList.remove('active-size')
-    })
+      })
     }
   }
 
@@ -48,7 +48,7 @@ export default function Showcase({ currentShoe, setCurrentShoe, cartItems, setCa
             <SizeSelector currentShoe={currentShoe} setCurrentShoe={setCurrentShoe} />
             <div className="showcase-buttons">
               <button className="back-to-shopping-button" onClick={handleBackButton}>Back</button>
-              <button className="add-to-cart-button" onClick={handleAddToCart}>Add to cart</button>
+              <button className="add-to-cart-button" onClick={handleAddToCart}>Buy</button>
             </div>
           </div>
         </div>

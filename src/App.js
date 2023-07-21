@@ -3,6 +3,7 @@ import Header from "./Components/Header"
 import Landing from "./Components/Landing"
 import Cart from './Components/Cart'
 import Shop from './Components/Shop'
+import About from "./Components/About"
 import bg from './Assets/bg3.png'
 import { Route, Routes } from "react-router-dom"
 import ShoeData from "./Assets/ShoeData"
@@ -32,6 +33,7 @@ export default function App() {
         <Route path="/" element={<Landing />} />
         <Route path="/cart" element={<Cart cartItems={cartItems} setCartItems={setCartItems} />} />
         <Route path="/shop" element={<Shop shoes={shoes} selectShoe={selectShoe} />} />
+        <Route path="/about" element={<About />} />
       </Routes>
       <Showcase currentShoe={currentShoe} setCurrentShoe={setCurrentShoe} cartItems={cartItems} setCartItems={setCartItems} />
       <Footer />

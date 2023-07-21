@@ -1,8 +1,10 @@
 export default function Shoe({ shoe, selectShoe } ) {
+
   function handleSelect(e) {
     selectShoe(e)
     document.querySelector('#showcase').showModal()
   }
+  
   return (
     <div className="shoe">
       <h2 className="shoe-name">{shoe.name}</h2>

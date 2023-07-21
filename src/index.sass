@@ -20,7 +20,7 @@ header
   display: flex
   align-items: center
   justify-content: space-between
-  padding: 0 100px 0 50px
+  padding: 0 50px
 
   a
     text-decoration: none
@@ -34,7 +34,7 @@ header
   ul
     display: flex
     list-style: none
-    gap: 100px
+    gap: 50px
     font-size: 2rem
   
   li
@@ -49,6 +49,7 @@ footer
   display: flex
   align-items: center
   justify-content: center
+  font-weight: 200
       
 .landing-wrapper   
   display: flex 
@@ -56,7 +57,7 @@ footer
 
   .slogan
     background-color: rgba(#121212, 0.9)
-    height: clamp(60%, 400px, 1000px)
+    height: clamp(60%, 500px, 1000px)
     width: min-content
     display: flex
     flex-direction: column
@@ -88,7 +89,6 @@ footer
   padding: 100px
   padding-inline: 20%
   display: flex
-  justify-content: center
   flex-wrap: wrap
   gap: 50px
 
@@ -152,6 +152,7 @@ footer
     padding: 30px
 
   .cart-title
+    background-color: rgba(#121212, 0.9)
     width: 60%
     align-self: center
     text-align: center
@@ -159,9 +160,16 @@ footer
     font-size: 2.8rem
     border: 2px solid #E9F8F9
     padding: 8px 16px
-    margin-block-end: 20px
+    margin-block-end: 40px
 
+  .cart-items
+    height: 100%
+    display: flex
+    flex-direction: column
+    gap: 10px
+    
   .cart-item
+    background-color: rgba(#121212, 0.9)
     border: 1px solid #E9F8F9
     padding: 8px 16px
     display: flex
@@ -179,10 +187,22 @@ footer
 
   .cart-item-right
     display: flex
+    gap: 10px
+  
+  .delete-cart-item:hover
+    transform: scale(1.1)
+
+  .cart-sum
+    font-size: 1.3rem
+    font-weight: 400
+    align-self: flex-end
+    padding-inline-end: 40px
 
   .cart-bottom
+    margin-block-start: auto
     display: flex
-    justify-content: flex-end
+    flex-direction: column
+    align-items: flex-end
     gap: 10px
 
   .checkout-button
@@ -220,7 +240,7 @@ footer
   
   .showcase-body
     display: flex
-    gap: 20px
+    gap: 25px
     padding-block-end: 30px
 
     .showcase-body-right
@@ -260,6 +280,7 @@ footer
 
     .active-size
       border: 1px solid #56c972
+      transform: scale(1.1)
 
   .showcase-buttons
     margin-top: auto
@@ -282,6 +303,26 @@ footer
     .add-to-cart-button:hover
       border: 1px solid #56c972
 
-    
+.about-wrapper
+  place-self: center
+  display: grid
+  background-color: rgba(#121212, 0.9)
+  height: min-content
+  width: 40%
+  padding: 100px 
+
+  .about-title
+    font-weight: 400
+    font-size: 2.5rem
+    text-align: center
+    margin-block-end: 30px
+
+  .about-text
+    font-weight: 300
+    font-size: 1.25rem
+    text-align: justify
+    margin: 20px
+
+
 
 
