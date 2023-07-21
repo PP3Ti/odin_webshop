@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/odin_webshop/static/css/main.463b04ae.css",
+    "main.js": "/odin_webshop/static/js/main.342d8154.js",
+    "static/media/bg3.png": "/odin_webshop/static/media/bg3.738e2ddcfd039da17464.png",
+    "static/media/furia air_2.jpg": "/odin_webshop/static/media/furia air_2.a284c5424b3bb322c897.jpg",
+    "static/media/furia air_1.jpg": "/odin_webshop/static/media/furia air_1.528aa4239587396d3360.jpg",
+    "static/media/drago_2.jpg": "/odin_webshop/static/media/drago_2.a60c405bd82c00295126.jpg",
+    "static/media/drago_1.jpg": "/odin_webshop/static/media/drago_1.72349127d48b794734ba.jpg",
+    "static/media/futuraW2.jpg": "/odin_webshop/static/media/futuraW2.b2b83554f04a8cc6c8a4.jpg",
+    "static/media/cobra_2.jpg": "/odin_webshop/static/media/cobra_2.c2f81d46f49cdad23d31.jpg",
+    "static/media/futuraW1.jpg": "/odin_webshop/static/media/futuraW1.203dd9d5b2f63985bc67.jpg",
+    "static/media/tarantula1.jpg": "/odin_webshop/static/media/tarantula1.c8ed7561b7051d528634.jpg",
+    "static/media/theory1.jpg": "/odin_webshop/static/media/theory1.723e4399bc38167339e7.jpg",
+    "static/media/python_2.jpg": "/odin_webshop/static/media/python_2.fc33c27dc1fe9271079d.jpg",
+    "static/media/solution comp_2.jpg": "/odin_webshop/static/media/solution comp_2.f9adf12d440e096c1e48.jpg",
+    "static/media/skwama_2.jpg": "/odin_webshop/static/media/skwama_2.fd9aec89c8c75a40f9bf.jpg",
+    "static/media/cobra_1.jpg": "/odin_webshop/static/media/cobra_1.a215b8085ddde2ae2653.jpg",
+    "static/media/theory2.jpg": "/odin_webshop/static/media/theory2.1ae2d87863d3f2525a07.jpg",
+    "static/media/solution comp_1.jpg": "/odin_webshop/static/media/solution comp_1.5131e06e1954de19a527.jpg",
+    "static/media/skwama_1.jpg": "/odin_webshop/static/media/skwama_1.3fe13946a96ece621523.jpg",
+    "static/media/tarantulaW1.jpg": "/odin_webshop/static/media/tarantulaW1.091649c0e2fa2ec18389.jpg",
+    "static/media/python_1.jpg": "/odin_webshop/static/media/python_1.85a2052731757382d5bf.jpg",
+    "static/media/tarantulaW2.jpg": "/odin_webshop/static/media/tarantulaW2.7452dc33a26d858a10ea.jpg",
+    "static/media/mantra2.jpg": "/odin_webshop/static/media/mantra2.bbeb523e407341825b65.jpg",
+    "static/media/mantra1.jpg": "/odin_webshop/static/media/mantra1.ac0a2e1530b0c95ef040.jpg",
+    "index.html": "/odin_webshop/index.html",
+    "static/media/delete-icon.svg": "/odin_webshop/static/media/delete-icon.b365bd196f686736fd70c8a37dbbf00c.svg",
+    "main.463b04ae.css.map": "/odin_webshop/static/css/main.463b04ae.css.map",
+    "main.342d8154.js.map": "/odin_webshop/static/js/main.342d8154.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.463b04ae.css",
+    "static/js/main.342d8154.js"
+  ]
+}
