@@ -4,7 +4,7 @@ import App from "../App"
 
 export default function RouteSwitch() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
         <App />
     </BrowserRouter>
   )
