@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/odin_webshop/static/css/main.54068319.css",
+    "main.css": "/odin_webshop/static/css/main.91c98a62.css",
     "main.js": "/odin_webshop/static/js/main.e766b789.js",
     "static/media/bg3.png": "/odin_webshop/static/media/bg3.e6d833a2d362ab79d975.png",
     "static/media/furia air_2.jpg": "/odin_webshop/static/media/furia air_2.a284c5424b3bb322c897.jpg",
@@ -26,11 +26,11 @@
     "static/media/mantra1.jpg": "/odin_webshop/static/media/mantra1.ac0a2e1530b0c95ef040.jpg",
     "index.html": "/odin_webshop/index.html",
     "static/media/delete-icon.svg": "/odin_webshop/static/media/delete-icon.b365bd196f686736fd70c8a37dbbf00c.svg",
-    "main.54068319.css.map": "/odin_webshop/static/css/main.54068319.css.map",
+    "main.91c98a62.css.map": "/odin_webshop/static/css/main.91c98a62.css.map",
     "main.e766b789.js.map": "/odin_webshop/static/js/main.e766b789.js.map"
   },
   "entrypoints": [
-    "static/css/main.54068319.css",
+    "static/css/main.91c98a62.css",
     "static/js/main.e766b789.js"
   ]
 }
