@@ -26,6 +26,17 @@ export default function App() {
     }
   }
 
+  const triggerPopup = () => {
+    const popup = document.querySelector('.item-added-popup')
+    popup.classList.remove('displayNone')
+    popup.classList.add('displayGrid')
+    setTimeout(() => {
+      popup.classList.remove('displayGrid')
+      popup.classList.add('displayNone')
+    }, 3000)
+  }
+  
+
   return (
     <div className="app" style={{ backgroundImage:`url(${bg})` }}>
       <Header />
@@ -35,7 +46,7 @@ export default function App() {
         <Route path="/shop" element={<Shop shoes={shoes} selectShoe={selectShoe} />} />
         <Route path="/about" element={<About />} />
       </Routes>
-      <Showcase currentShoe={currentShoe} setCurrentShoe={setCurrentShoe} cartItems={cartItems} setCartItems={setCartItems} />
+      <Showcase currentShoe={currentShoe} setCurrentShoe={setCurrentShoe} cartItems={cartItems} setCartItems={setCartItems} triggerPopup={triggerPopup}/>
       <Footer />
     </div>
   )

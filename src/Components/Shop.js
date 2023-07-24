@@ -10,6 +10,9 @@ export default function Shop({ shoes, selectShoe }) {
             selectShoe={selectShoe}
           />
         )}
+        <div className='item-added-popup displayNone'>
+              Item added to cart
+        </div>
     </div>
   )
 }

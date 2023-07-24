@@ -1,6 +1,6 @@
 import SizeSelector from "./SizeSelector"
 
-export default function Showcase({ currentShoe, setCurrentShoe, cartItems, setCartItems }) {
+export default function Showcase({ currentShoe, setCurrentShoe, cartItems, setCartItems, triggerPopup }) {
 
   function handleClick(e) {
     if (e.target.id === 'showcase') {
@@ -29,8 +29,9 @@ export default function Showcase({ currentShoe, setCurrentShoe, cartItems, setCa
       e.currentTarget.parentElement.parentElement.parentElement.parentElement.parentElement.close()
       const sizeSquares = document.querySelectorAll('.size')
       sizeSquares.forEach(square => {
-      square.classList.remove('active-size')
+        square.classList.remove('active-size')
       })
+      triggerPopup()
     }
   }
 

@@ -90,7 +90,10 @@ footer
   padding-inline: 20%
   display: flex
   flex-wrap: wrap
+  justify-content: space-evenly
   gap: 50px
+  max-width: 1200px
+  justify-self: center
 
   .shoe
     padding: 20px
@@ -134,7 +137,35 @@ footer
   .shoe:hover
     transform: scale(1.1)
     transition: transform 0.2s
+
+  .displayNone
+    display: none
+
+  .displayGrid
+    display: grid
+
+  .item-added-popup
+    place-content: center
+    position: fixed
+    min-width: 30%
+    min-height: 10%
+    background-color: rgba(#121212, 0.9)
+    border: 2px solid #56c972
+    font-size: 2rem
+
+    animation-duration: 1.5s
+    animation-name: moveInAndOut
+    animation-iteration-count: 2
+    animation-direction: alternate
+
+
+@keyframes moveInAndOut 
+  from 
+    top: 100%
   
+  to 
+    top: 85%
+ 
 .cart-wrapper
   display: flex
   justify-content: center
@@ -145,7 +176,6 @@ footer
     flex-direction: column
     justify-content: space-between
     gap: 15px
-    height: min-content
     min-height: 90%
     width: 500px
     background-color: rgba(#121212, 0.9)
@@ -205,16 +235,28 @@ footer
     align-items: flex-end
     gap: 10px
 
-  .checkout-button
-    width: 25%
-    padding: 8px 16px
+  .return-to-shop
+    max-width: fit-content
+    align-self: flex-end
+
+  .checkout-button, .return-to-shop-button
+    min-width: fit-content
+    padding: 12px 24px
     background-color: rgba(#121212, 0.9)
     border: 1px solid #E9F8F9
-    font-size: 1rem
+    font-size: 1.3rem
 
-  .checkout-button:hover
+  .checkout-button:hover, .return-to-shop-button:hover
     background-color: rgba(#E9F8F9, 0.2)
     border: 1px solid #56c972
+
+  .return-to-shop-button
+    align-self: flex-end
+
+  .empty-cart-text
+    font-size: 2rem
+    margin-inline: auto
+    margin-block-start: -75px
 
 #showcase
   position: fixed
@@ -308,12 +350,13 @@ footer
   display: grid
   background-color: rgba(#121212, 0.9)
   height: min-content
-  width: 40%
-  padding: 100px 
+  max-width: 40%
+  padding: 75px 
+  margin-block: 50px
 
   .about-title
     font-weight: 400
-    font-size: 2.5rem
+    font-size: 2.9rem
     text-align: center
     margin-block-end: 30px
 
