@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/odin_webshop/static/css/main.69cfda99.css",
-    "main.js": "/odin_webshop/static/js/main.f775c9f2.js",
-    "static/media/bg3.png": "/odin_webshop/static/media/bg3.738e2ddcfd039da17464.png",
+    "main.css": "/odin_webshop/static/css/main.042eca19.css",
+    "main.js": "/odin_webshop/static/js/main.e766b789.js",
+    "static/media/bg3.png": "/odin_webshop/static/media/bg3.e6d833a2d362ab79d975.png",
     "static/media/furia air_2.jpg": "/odin_webshop/static/media/furia air_2.a284c5424b3bb322c897.jpg",
     "static/media/furia air_1.jpg": "/odin_webshop/static/media/furia air_1.528aa4239587396d3360.jpg",
     "static/media/drago_2.jpg": "/odin_webshop/static/media/drago_2.a60c405bd82c00295126.jpg",
@@ -26,11 +26,11 @@
     "static/media/mantra1.jpg": "/odin_webshop/static/media/mantra1.ac0a2e1530b0c95ef040.jpg",
     "index.html": "/odin_webshop/index.html",
     "static/media/delete-icon.svg": "/odin_webshop/static/media/delete-icon.b365bd196f686736fd70c8a37dbbf00c.svg",
-    "main.69cfda99.css.map": "/odin_webshop/static/css/main.69cfda99.css.map",
-    "main.f775c9f2.js.map": "/odin_webshop/static/js/main.f775c9f2.js.map"
+    "main.042eca19.css.map": "/odin_webshop/static/css/main.042eca19.css.map",
+    "main.e766b789.js.map": "/odin_webshop/static/js/main.e766b789.js.map"
   },
   "entrypoints": [
-    "static/css/main.69cfda99.css",
-    "static/js/main.f775c9f2.js"
+    "static/css/main.042eca19.css",
+    "static/js/main.e766b789.js"
   ]
 }
